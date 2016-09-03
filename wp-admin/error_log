@@ -1,0 +1,14 @@
+[19-Jan-2016 10:51:49 UTC] WordPress database error Table 'wp_mepr_tax_rate_locations' already exists for query CREATE TABLE wp_mepr_tax_rate_locations (
+          id bigint(20) NOT NULL auto_increment,
+          tax_rate_id bigint(20) NOT NULL,
+          location_code varchar(200) NOT NULL,
+          location_type varchar(40) NOT NULL,
+          PRIMARY KEY  (id),
+          KEY mp_tax_rate_id (tax_rate_id),
+          KEY mp_location_type (location_type),
+          KEY mp_location_code (location_code),
+          KEY mp_location_type_code (location_type,location_code)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, MeprAppCtrl::install, MeprDb->upgrade, dbDelta
+[14-Feb-2016 02:44:31 UTC] PHP Warning:  Division by zero in /home1/wabg7k0aax4c/public_html/wp-content/plugins/memberpress/app/lib/MeprReports.php on line 584
+[14-Feb-2016 02:44:42 UTC] PHP Warning:  Division by zero in /home1/wabg7k0aax4c/public_html/wp-content/plugins/memberpress/app/lib/MeprReports.php on line 584
+[24-Feb-2016 05:42:14 UTC] PHP Warning:  Division by zero in /home1/wabg7k0aax4c/public_html/wp-content/plugins/memberpress/app/lib/MeprReports.php on line 584
