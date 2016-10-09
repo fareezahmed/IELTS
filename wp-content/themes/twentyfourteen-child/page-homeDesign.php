@@ -119,42 +119,45 @@ get_header(); ?>
 
                     <?php endwhile; endif; ?>
 
-                        <div class="content-block" id="blog">
-                            <div class="container blog-sec">
-                                <header class="block-heading cleafix">
-                                    <a href="testimonal" class="btn btn-o btn-lg pull-right">View All</a>
-                                    <div class="title-page">
-                                        <p class="main-header">Testimonial</p>
-                                        <!-- <p class="sub-header">Keep up with the latest happenings.</p> -->
-                                    </div>
-                                </header>
-                                <section class="block-body">
-                                    <div class="row">
-                                        <div class="col-sm-4 blog-post">
-                                            <img src="/wp-content/themes/twentyfourteen-child/img/01_200x200.png">
-                                            <a href="#"><h2>Great</h2></a>
-                                            <div class="date">3 Nov, 2014</div>
-                                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                                            <a href="">Read More</a>
-                                        </div>
-                                        <div class="col-sm-4 blog-post">
-                                            <img src="/wp-content/themes/twentyfourteen-child/img/02_200x200.png">
-                                            <a href="#"><h2>Good</h2></a>
-                                            <div class="date">3 Nov, 2014</div>
-                                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                                            <a href="">Read More</a>
-                                        </div>
-                                        <div class="col-sm-4 blog-post">
-                                            <img src="/wp-content/themes/twentyfourteen-child/img/03_200x200.png">
-                                            <a href="#"><h2>Excellent</h2></a>
-                                            <div class="date">3 Nov, 2014</div>
-                                            <p>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit in lorem.</p>
-                                            <a href="">Read More</a>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div><!-- #blog -->
+	            </div>
+	        </div>
+	        <!-- /About us -->
 
-<?php
+
+			<div class="content-block parallax" id="services">
+				<div class="container services-sec">
+					<div class="title-page">
+						<h2>About US</h2>
+					    <!-- <p class="sub-header">A little about what we do</p> -->
+					</div>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="service visible-on">
+									<img src="/wp-content/themes/twentyfourteen-child/img/bike_water1-1000x600.jpg"><br>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="service">
+									<article>
+      <p>IELTS 21Century is a specially designed online training program to help you to improve your English IELTS skills and prepare you for IELTS exam.</p>
+       <p>We have developed tests to bring your English to the next level and be able to do IELTS test successfully.</p>
+      <p>International knowledge and experience of teaching English in different countries (Australia, UK, South East Asia, China, Eastern Europe) has been combined together in preparation of the tests.</p>     
+      <ul>
+        <li>24/7 online access</li>
+        <li>Tips, tools and additional resources </li>
+        <li>Future academic skills training</li>
+      </ul>
+   </article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+				</div>
+			</div><!-- #services -->
+<script>
+     jQuery(".aboutus-item br").remove();
+</script>
+                    <?php
 get_footer();

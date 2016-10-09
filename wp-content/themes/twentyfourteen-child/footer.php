@@ -47,21 +47,16 @@
 								<ul>
 									<li class="address-sub"><i class="fa fa-map-marker"></i>Office Address</li>
 										<p>
-											P.o Box 353 Melbourne. Australia. 
-										</p>
-									<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
-										<p>
-											Local: 1-800-hello<br>
-											Mobile: 1-800-hello
+											Melbourne, Australia. 
 										</p>
 									<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
 										<p>
-											<a href="mailto:info@mm.com">info@mm.com</a><br>
-											<a href="http://www.mm.com/">www.mm.com</a>
+                                            <a href="mailto:info@ielts21century.com.au">info@ielts21century.com.au</a>
 										</p>
 
 
 								</ul>
+<!--
 								<div class="social">
 									<a href="#"><i class="fa fa-twitter"></i></a>
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -70,6 +65,7 @@
 									<a href="#"><i class="fa fa-google-plus"></i></a>
 									<a href="#"><i class="fa fa-skype"></i></a>
 								</div>
+-->
 								
 							</div>
 						</div>
@@ -78,8 +74,8 @@
 			<div class="content-block footer-bottom" id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-6">&copy; Copyright MoonLab 2015</div>
-						<div class="col-xs-6 text-right"></div>
+						<div class="col-xs-6">&copy; Copyright IELTS 21st Century 2016</div>
+						<div class="col-xs-6 text-right">Developed by <a href="http://fareezahmed.com/" target="_blank">Fareez Ahmed</a></div>
 					</div>
 				</div>
 			</div><!-- #footer -->

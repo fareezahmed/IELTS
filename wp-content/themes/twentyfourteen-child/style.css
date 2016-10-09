@@ -440,9 +440,9 @@ i.aboutus-icon {
   color: #6a6a6a;
 }
 h4.aboutus-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   margin-top: 23px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 22px;
 }
 p.aboutus-desc {
@@ -781,10 +781,12 @@ li > a:only-child:after {
 .page-template-page-no-sidebar .top-header,
 .single-memberpressproduct .top-header.shows,
 .page-template-page-no-side-no-banner .top-header.shows {
-  background: rgba(43, 62, 81, 0.77) !important;
+  background: rgba(43, 62, 81, 1) !important;
 }
 .home .top-header,
 .page-template-page-no-sidebar .top-header,
+.home .top-header .sub-menu,
+.top-header nav #menu-mainmenu .sub-menu,
 .single-memberpressproduct .top-header .sub-menu,
 .page-template-page-no-side-no-banner .top-header .sub-menu {
   background: #2b3e51;
@@ -801,7 +803,7 @@ li > a:only-child:after {
   height: 0;
 }
 .top-header.shows nav ul li:hover > ul {
-  background: rgba(43, 62, 81, 0.77) !important;
+  background: rgba(43, 62, 81, 1) !important;
 }
 .top-header nav #menu-mainmenu ul.sub-menu {
   padding-left: 20px;
