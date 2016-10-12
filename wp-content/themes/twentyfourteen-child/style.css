@@ -1264,6 +1264,7 @@ input[type="checkbox"] {
 }
 .comparison_table h1 {
   color: #fff;
+  min-height: 120px;
 }
 .comparison_table .tlist {
   min-height: 340px;
