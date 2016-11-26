@@ -16,14 +16,14 @@ var left_side_width = 220; //Sidebar width in pixels
         var score = '';
         jQuery('#answer-key p').remove();
         jQuery('.answer-container').show();     
-        for(var i = 1; i < 41; i++){
-            console.log(i);
+        for(var i = 1; i < (document.getElementById('answer-key').children.length+1); i++){
+            // console.log(i);
             var a = document.getElementById("q"+i);
-            console.log(a);
+            // console.log(a);
             var j = i - 1;
-            console.log(j);
+            // console.log(j);
             var b = document.getElementById('answer-key').children[j].innerText;
-            console.log(b);
+            // console.log(b);
             var fieldValue = '';
             switch (a.type) {
                 case "text":
@@ -104,7 +104,7 @@ var left_side_width = 220; //Sidebar width in pixels
                     break;
                 case (score == 36): //36
                     band = 7.5;
-                    console.log(band);
+                   // console.log(band);
                     break;
                 case (score == 37 || score == 38): //37-38
                     band = 8;
