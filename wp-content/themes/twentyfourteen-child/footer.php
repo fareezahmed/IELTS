@@ -75,7 +75,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6">&copy; Copyright IELTS 21st Century 2016</div>
-						<div class="col-xs-6 text-right">Developed by <a href="http://fareezahmed.com/" target="_blank">Fareez Ahmed</a></div>
+						<div class="col-xs-6 text-right">Developed by <a href="http://talenttree.com.au/" target="_blank">Talent Tree</a></div>
 					</div>
 				</div>
 			</div><!-- #footer -->
