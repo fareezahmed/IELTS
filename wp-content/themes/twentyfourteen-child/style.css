@@ -1397,3 +1397,10 @@ input[type="checkbox"] {
   transition: all 0.25s ease;
   border-bottom: 0.5px solid #ccc;
 }
+
+@media only screen 
+  and (max-width: 768px)  {
+      .navbar-header {
+          display: none;
+      }
+}

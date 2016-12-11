@@ -42,7 +42,7 @@ get_header(); ?>
 						    	<!-- Collect the nav links, forms, and other content for toggling -->
 							    <div class="collapse navbar-collapse navbar-def" id="bs-example-navbar-collapse-1">
                                     <a class="sr-only skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-                                    <?php wp_nav_menu( array(  'container' => '', 'menu_class' => 'nav navbar-nav navbar-right','current_page_parent' => 'dropdown', 'page_item_has_children' => 'dropdown-menu' ) ); ?>
+                                    <?php wp_nav_menu( array(  'container' => '', 'menu_class' => 'nav navbar-nav ','current_page_parent' => 'dropdown', 'page_item_has_children' => 'dropdown-menu' ) ); ?>
 							      
 <!--
 							      	<ul class="nav navbar-nav navbar-right">
